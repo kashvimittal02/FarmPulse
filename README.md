@@ -37,17 +37,9 @@
 
 ## UI/UX
 
-Login Page:
-<img width="371" height="804" alt="Screenshot 2025-09-29 005345" src="https://github.com/user-attachments/assets/fb8b6023-e41a-4e5d-bc57-69d0e80bfee3" />
+<img width="371" height="804" alt="Screenshot 2025-09-29 005345" src="https://github.com/user-attachments/assets/fb8b6023-e41a-4e5d-bc57-69d0e80bfee3" /> <img width="372" height="814" alt="Screenshot 2025-09-29 004205" src="https://github.com/user-attachments/assets/48f98a34-9f69-4d49-a4e2-89e22e3bffcf" />
 
-SignUp Page:
-<img width="372" height="814" alt="Screenshot 2025-09-29 004205" src="https://github.com/user-attachments/assets/48f98a34-9f69-4d49-a4e2-89e22e3bffcf" />
-
-Dashboard Page:
-<img width="362" height="807" alt="Screenshot 2025-09-09 202709" src="https://github.com/user-attachments/assets/b1e40149-8e14-4295-bd4c-9d53e30b17bb" />
-
-Hamburger Icon:
-<img width="382" height="808" alt="Screenshot 2025-09-29 004244" src="https://github.com/user-attachments/assets/e2106724-b65f-4c7c-bccb-3da0512b2ba0" />
+<img width="362" height="807" alt="Screenshot 2025-09-09 202709" src="https://github.com/user-attachments/assets/b1e40149-8e14-4295-bd4c-9d53e30b17bb" /> <img width="382" height="808" alt="Screenshot 2025-09-29 004244" src="https://github.com/user-attachments/assets/e2106724-b65f-4c7c-bccb-3da0512b2ba0" />
 
 
 ---

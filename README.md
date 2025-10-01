@@ -46,7 +46,7 @@
 
 ## Getting Started
 
-Project Structure:
+**Project Structure:**
 
 lib/ → Main Flutter code (UI, screens, widgets)
 
@@ -59,10 +59,12 @@ README.md → Project information
 .gitignore → Files to exclude from GitHub
 
 
-License:
+**License:**
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+
+**Contact:**
 
 Author: Kashvi Mittal
 
@@ -71,7 +73,3 @@ GitHub: [https://github.com/your-username](https://github.com/kashvimittal02)
 Email: kashvimittal027@gmail.com
 
 ---
-
-If you want, I can also **make a shorter “quick README” version** that’s concise but still looks professional — perfect for GitHub main page.  
-
-Do you want me to make that?

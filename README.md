@@ -1,29 +1,71 @@
 # FarmPulse
 
-**FarmPulse** is a Flutter mobile application designed to help farmers monitor and manage biosecurity measures on their farms. The app currently focuses on **farmer-facing features** like risk assessment, training, compliance tracking, and notifications.
+*FarmPulse* is a Flutter mobile application designed to help farmers monitor and manage biosecurity measures on their farms. The app currently focuses on *farmer-facing features* like risk assessment, training, compliance tracking, and notifications.
 
 ---
+# FarmPulse – ML Risk Assessment Prototype
+The risk assessment component treats outbreak-risk prediction as a **three-class classification problem**.
 
-## Features (Available Now)
+Based on farm-related inputs, the model predicts one of three risk levels:
 
-### **Farmer-Facing Features**
+- Low
+- Medium
+- High
 
-1. **Risk Assessment Tool**
+The trained ML model is exposed through a **FastAPI REST API**, allowing the application to send farm data and receive a risk prediction.
+
+## System Architecture
+
+```text
+Farm Data
+    |
+    v
+Data Preparation
+    |
+    v
+Decision Tree Classifier
+    |
+    v
+Risk Prediction
+(Low / Medium / High)
+    |
+    v
+FastAPI
+    |
+    v
+Application / Dashboard / Alerts
+```
+## Features Used
+
+The prototype uses the following farm-related features:
+
+Feature	Description
+herd_size	Number of animals in the farm
+vaccination_rate	Percentage of vaccinated animals
+previous_cases	Previous disease cases
+mortality_rate	Farm mortality rate
+biosecurity_score	Biosecurity assessment score
+nearby_outbreak	Indicates whether an outbreak is present nearby
+
+
+### *Farmer-Facing Features*
+
+1. *Risk Assessment Tool*
     - Simple Q&A form to assess farm biosecurity risk (Low/Medium/High).  
     - Region-based risk alerts for disease hotspots.
 
-2. **Biosecurity Guidelines & Training**
+2. *Biosecurity Guidelines & Training*
     - Interactive learning materials: short videos, pictorial guides, and audio in local languages.  
     - Gamified quizzes to encourage farmers to complete training.
 
-3. **Compliance Checklist & Record-Keeping**
+3. *Compliance Checklist & Record-Keeping*
     - Daily/weekly/monthly biosecurity tasks.  
     - Digital logbook for vaccination, visitor entry, and mortality reports.
 
-4. **Alerts & Notifications**
+4. *Alerts & Notifications*
     - Push notifications for local outbreak warnings and biosecurity reminders.
 
-5. **Offline Mode**
+5. *Offline Mode*
     - Data stored locally on the device and syncs when internet is available.
 
 ---
@@ -46,7 +88,7 @@
 
 ## Getting Started
 
-**Project Structure:**
+*Project Structure:*
 
 lib/ → Main Flutter code (UI, screens, widgets)
 
@@ -59,17 +101,17 @@ README.md → Project information
 .gitignore → Files to exclude from GitHub
 
 
-**License:**
+*License:*
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-**Contact:**
+*Contact:*
 
 Author: Kashvi Mittal
 
 GitHub: [https://github.com/your-username](https://github.com/kashvimittal02)
 
-Email: kashvimittal027@gmail.com
+Email: kashvi027@gmail.com
 
 ---
